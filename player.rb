@@ -9,4 +9,7 @@ class Player
   def change_score # Setter
     self.score = score - 1
   end
+
+  player1 = Player.new("Player1")
+  player2 = Player.new("Player2")
 end

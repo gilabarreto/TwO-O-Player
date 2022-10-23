@@ -1,8 +1,5 @@
 require "./player.rb"
+require "./game.rb"
 require "./question.rb"
 
-class Game < Player
-end
-
-class Game < Question
-end
+game = Game.new
